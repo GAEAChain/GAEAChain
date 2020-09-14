@@ -23,7 +23,9 @@ curl -sL https://github.com/GAEAChain/GAEAChain/blob/master/init.sh | sudo -E ba
 #### start up
 
 ` ./gaeachaind GAEAChain@apseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1` 
-` or`
+
+ or
+
 ` ./gaeachaind GAEAChain@euseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1` 
 
 #### Excuting an order
@@ -45,13 +47,17 @@ curl -sL https://github.com/GAEAChain/GAEAChain/blob/master/init.sh | sudo -E ba
 ### installation
 
  Download https://github.com/GAEAChain/GAEAChain/blob/master/mac/gaeachaind
+
  Download https://github.com/GAEAChain/GAEAChain/blob/master/mac/gaeachain-cli
+
  Execute the program using gaeachaind/gaeachain-cli using the terminal command window
 
 #### start up
 
 ` ./gaeachaind GAEAChain@apseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1` 
-` or`
+
+ or
+
 ` ./gaeachaind GAEAChain@euseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1`
 
 #### Excuting an order
@@ -74,13 +80,17 @@ curl -sL https://github.com/GAEAChain/GAEAChain/blob/master/init.sh | sudo -E ba
 ### installation
 
 Download https://github.com/GAEAChain/GAEAChain/blob/master/win/gaeachaind.exe
+
 Download https://github.com/GAEAChain/GAEAChain/blob/master/win/gaeachain-cli.exe
+
 Execute the program using gaeachaind.exe/gaeachain-cli.exe using the cmd command window
 
 #### start up
 
 ` gaeachaind.exe GAEAChain@apseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1` 
-` or`
+
+ or
+
 ` gaeachaind.exe GAEAChain@euseed1.edugaea.com:6790 -shrinkdebugfile=1 -maxlogsfilesize=1073741824 -maxtxfee=1`
 
 #### Excuting an order
