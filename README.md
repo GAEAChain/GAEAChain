@@ -30,16 +30,16 @@ curl -sL https://github.com/GAEAChain/GAEAChain/blob/master/init.sh | sudo -E ba
 
 #### Excuting an order
 
-` ./gaeachain-cli command `
+` ./gaeachain-cli GAEAChain command `
 
 #### Stop node
 
-` ./gaeachain-cli stop `
+` ./gaeachain-cli GAEAChain stop `
 
 #### Connect to the specified node at startup
 
 ```bash
-./gaeachaind -addnode=ip:port
+./gaeachaind GAEAChain -addnode=ip:port
 ```
 
 ## mac node
@@ -62,16 +62,16 @@ curl -sL https://github.com/GAEAChain/GAEAChain/blob/master/init.sh | sudo -E ba
 
 #### Excuting an order
 
-` ./gaeachain-cli command `
+` ./gaeachain-cli GAEAChain command `
 
 #### Stop node
 
-` ./gaeachain-cli stop `
+` ./gaeachain-cli GAEAChain stop `
 
 #### Connect to the specified node at startup
 
 ```
-./gaeachaind -addnode=ip:port
+./gaeachaind GAEAChain -addnode=ip:port
 ```
 
 
@@ -95,16 +95,16 @@ Execute the program using gaeachaind.exe/gaeachain-cli.exe using the cmd command
 
 #### Excuting an order
 
-` gaeachain-cli.exe command `
+` gaeachain-cli.exe GAEAChain command `
 
 #### Stop node
 
-` gaeachain-cli.exe stop `
+` gaeachain-cli.exe GAEAChain stop `
 
 #### Connect to the specified node at startup
 
 ```
-gaeachaind.exe -addnode=ip:port
+gaeachaind.exe GAEAChain -addnode=ip:port
 ```
 
 After startup, the sync block will start and the RPC service will be started (how to use the command to view the developer guide documentation).
